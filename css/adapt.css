@@ -1,0 +1,226 @@
+@media(max-width:1170px) {
+    .main-swiper-peg{
+        width: 120px !important;
+        left: auto !important;
+        right: 15px;
+    }
+    .btn_slider_main_group-div{
+        justify-content: end;
+    }
+    .video-item{
+        max-width: 300px;
+    }
+    .video-row{
+        justify-content: space-around
+    }
+    .hut-container{
+        max-width: 890px;
+    }
+}
+@media(max-width:1100px) {
+    
+    .header-list>li,.header-list-container>li{
+        margin: 0 12px;
+    }
+    .cabins-text{
+        padding: 0;
+    }
+}
+@media(max-width:1024px) {
+    .main-slider-image-button{
+        
+    }
+   *{
+    font-size: 12px;
+   }
+   .main-slider-image-text>P{
+    width: 370px;
+   }
+}
+@media(max-width:992px) {
+    .burger{
+        display: flex;
+    }
+    .header-list-container{
+        display: none;
+    }
+    
+    .cabins-img{
+        flex-basis: 300px;
+    }
+    .cabins-text>p{
+        margin-top: 2rem;
+        line-height: 19px;
+    }
+    .header-list>li:first-child{
+        flex: 10 1 auto;
+    }
+    .header-list>li:last-child{
+        flex: 2 140px;
+    }
+    .video-item{
+        margin: 0;
+    }
+    .video-row{
+        margin-top:5.6rem;
+    }
+    .forest-text{
+        padding: 50px 30px;
+    }
+    .container-btn{
+        top: calc(303px/2);
+    }
+    .hut-container{
+        max-width: 770px;
+    }
+    .cabins-text>p{
+        width: 23rem;
+    }
+    .footer-list{
+        text-align: right;
+        flex-direction: column;
+        align-content: flex-end;
+    }
+}
+@media(max-width:777px) {
+    .main-slider-image-button{
+
+    }
+    .main-slider-image-button>button{
+        width: 200px;
+    }
+    .main-slider-image-button>div{
+        padding: 4px;
+        font-size: 18px;
+    }
+    .cabins-text>p{
+        text-align: justify;
+    }
+    .cabins-text{
+        margin-bottom: 40px;
+    }
+  
+    .cabins-img img{
+        max-width: 100%;
+        width: auto;
+    }
+    .hut-container{
+        max-width: 100%;
+        margin: 0 15px;
+    }
+    .hut-right-container{
+        max-width: 300px;
+    }
+    .footer-icon-item{
+        flex: 1;
+    }
+    .footer-icon-list{
+        width: 160px;
+        margin-left: 34px;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:650px) {
+    *{
+        --left-container:60px;
+        font-size: 12px;
+    }
+     .header-list>li:first-child{
+        flex: 7 1 auto;
+    }
+    .header-list>li:last-child{
+        flex: 3 150px;
+    }
+    .header-list>li:last-child button{
+        padding: 20px 25px;
+        font-size: 14px;
+    }
+    .main-slider-image-text{
+        top: 20px;
+    }
+    .container-btn {
+        top: calc(216px/2);
+    }
+    .hut-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hut-left{
+        margin-bottom: 20px;
+    }
+    .footer-left>span{
+        width: 16rem;
+    }
+    .footer-left{
+        width: 200px;
+    }
+}
+@media(max-width:540px) {
+    .main-swiper-peg{
+        width: 100% !important;
+        left: auto !important;
+        right: 0px;
+    }
+    .btn_slider_main_group-div{
+        justify-content: center;
+    }
+    .main-slider-image-button{
+        display: none;
+    }
+    .video-item:nth-child(1){
+      
+        margin-left: 0px;
+        height: 300px;
+    }
+    .video-item:nth-child(3){
+      
+        margin-right: 0px;
+    
+    }
+    .forest{
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:470px) {
+*{
+    --left-container:20px;
+    
+}
+.main-slider-image-text>P{
+    padding:0;
+}  
+.main-slider-image-text>h4{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.main-slider-image-text>P{
+    width: 200px;
+    margin-left: 0;
+}
+.footer-container{
+    flex-direction: column;
+    height: 100%;
+}
+.footer-icon-list{
+    width: auto;
+    margin-left: 0;
+}
+.footer-right{
+    margin-top: 30px;
+}
+.footer-list{
+    text-align: center;
+   
+    align-content: center;
+}
+}
+@media(max-width:380px) {
+
+ 
+}
+@media(max-width:320px) {
+
+    
+}
